@@ -10,6 +10,7 @@ Choose the files that you want/need and copy them over to the `plugins/af_comics
 
 This is the complete list of comics supported (with the corresponding file)
 
+* [Dosis Diarias de Alberto Montt](http://www.dosisdiarias.com/) ([file](af_comics_montt.php))
 * [General Protection Fault](http://www.gpf-comics.com/) ([file](af_comics_gpf.php))
 
 ## License
