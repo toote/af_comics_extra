@@ -12,6 +12,7 @@ This is the complete list of comics supported (with the corresponding file)
 
 * [Blooming Fairies](http://www.bloomingfaeries.com/) **NSFW** ([file](af_comics_fairies.php))
 * [Dosis Diarias de Alberto Montt](http://www.dosisdiarias.com/) ([file](af_comics_montt.php))
+* [Evil INC](http://evil-inc.com/) ([file](af_comics_evil.php))
 * [General Protection Fault](http://www.gpf-comics.com/) ([file](af_comics_gpf.php))
 
 ## License
