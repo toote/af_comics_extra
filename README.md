@@ -6,6 +6,12 @@ This is an assortment of other Comics I read that [the original af_comics plugin
 
 Choose the files that you want/need and copy them over to the `plugins/af_comics/filters` folder of your TT-RSS installation
 
+## Supported Comics
+
+This is the complete list of comics supported (with the corresponding file)
+
+* [General Protection Fault](http://www.gpf-comics.com/) ([file](af_comics_gpf.php))
+
 ## License
 
 See the [corresponding license file](LICENSE) for the complete GPLv3 license text
