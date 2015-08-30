@@ -14,6 +14,7 @@ This is the complete list of comics supported (with the corresponding file)
 * [Dosis Diarias de Alberto Montt](http://www.dosisdiarias.com/) ([file](af_comics_montt.php))
 * [Evil INC](http://evil-inc.com/) ([file](af_comics_evil.php))
 * [General Protection Fault](http://www.gpf-comics.com/) ([file](af_comics_gpf.php))
+* [Looking For Group](http://www.lfg.co/) ([file](af_comics_lfg.php))
 
 ## License
 
