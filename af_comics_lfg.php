@@ -7,7 +7,8 @@ class Af_Comics_LFG extends Af_ComicFilter {
 	function process(&$article) {
 		if (strpos($article["link"], "lfg.co/page/") !== FALSE OR
 		    strpos($article["link"], "lfg.co/npc/") !== FALSE OR
-		    strpos($article["link"], "lfg.co/tda/") !== FALSE) {
+		    strpos($article["link"], "lfg.co/tda/") !== FALSE OR
+		    strpos($article["link"], "feedproxy.google.com/~r/LookingForGroup/") !== FALSE) {
 			$doc = new DOMDocument();
 			@$doc->loadHTML(fetch_file_contents($article["link"]));
 			
