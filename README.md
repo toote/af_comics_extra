@@ -15,6 +15,7 @@ This is the complete list of comics supported (with the corresponding file)
 * [Evil INC](http://evil-inc.com/) ([file](af_comics_evil.php))
 * [General Protection Fault](http://www.gpf-comics.com/) ([file](af_comics_gpf.php))
 * [Looking For Group](http://www.lfg.co/) ([file](af_comics_lfg.php))
+* [Manly Guys Doing Manly Things](http://thepunchlineismachismo.com/) ([file](af_comics_manly.php))
 * [Menage a 3](http://www.ma3comic.com/) **NSFW** ([file](af_comics_ma3.php))
 
 ## License
