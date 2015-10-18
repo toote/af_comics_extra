@@ -17,6 +17,7 @@ This is the complete list of comics supported (with the corresponding file)
 * [Looking For Group](http://www.lfg.co/) ([file](af_comics_lfg.php))
 * [Manly Guys Doing Manly Things](http://thepunchlineismachismo.com/) ([file](af_comics_manly.php))
 * [Menage a 3](http://www.ma3comic.com/) **NSFW** ([file](af_comics_ma3.php))
+* [Oglaf](http://oglaf.com/) **NSFW** ([file](af_comics_oglaf.php))
 
 ## License
 
