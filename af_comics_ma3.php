@@ -3,25 +3,14 @@ class Af_Comics_Ma3 extends Af_ComicFilter {
 	function supported() {
 		return array("Menage a 3");
 	}
-	
+
 	function process(&$article) {
-		if (strpos($article["link"], "www.menagea3.net/") !== FALSE) {
-			$doc = new DOMDocument();
-			@$doc->loadHTML(fetch_file_contents($article["link"]));
-			
-			$basenode = false;
-			
-			if ($doc) {
-				$xpath = new DOMXPath($doc);
-				$basenode = $xpath->query('(//div[@id="cc"]//img)')->item(0);
-				
-				if ($basenode) {
-					$article["content"] = $doc->saveXML($basenode);
-				}
-			}
+		if (strpos($article["link"], "www.menagea3.net/") !== FALSE ||
+		    strpos($article["link"], "www.ma3comic.com/") !== FALSE) {
+			$article["content"] = preg_replace('#/comicsthumbs/#', '/comics/', $article["content"]);
 			return true;
 		}
-		
+
 		return false;
 	}
 }
